@@ -92,11 +92,6 @@
   <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">Mantener Esquema de Contabilidad-Para que los cambios aparezcan hay que salir y entrar a la aplicación de nuevo</value>
   <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.">Esta ventana define un método contable y los elementos que comprenderán la estructura de cuentas. Permite crear y activar elementos para la contabilidad detallada de Socios del Negocio; Productos; Localizaciones; etc. También permite revisar y cambiar las cuentas del Libro Mayor y los valores predeterminados. Las cuentas que son usadas en las transacciones dependen de la Organización que ejecuta la transacción.</value>
  </row>
- <row id="180" trl="Y">
-  <value column="Name" original="Verify completed Requisition">Verificar Mensajes Completados</value>
-  <value column="Description" original="Just a test case for a manual interaction.">Verificar Mensajes Completados</value>
-  <value column="Help" original="Enter and maintain Material Requisitions">Verificar Mensajes Completados</value>
- </row>
  <row id="50000" trl="N">
   <value column="Name" original="Manufacturing Workflow Setup">Manufacturing Workflow Setup</value>
   <value column="Description" original="Setup Manufacturing Workflow">Setup Manufacturing Workflow</value>

@@ -63,9 +63,9 @@
   <value column="Help" original=""/>
  </row>
  <row id="10886" trl="Y">
-  <value column="Name" original="Overwrite Project">Overwrite Project</value>
-  <value column="Description" original="Overwrite the account segment Project with the value specified">Overwrite the account segment Project with the value specified</value>
-  <value column="Help" original="If not overwritten, the value of the original account combination is used. If selected, but not specified, the segment is set to null.">If not overwritten, the value of the original account combination is used. If selected, but not specified, the segment is set to null.</value>
+  <value column="Name" original="Overwrite Project">SobreEscribir Proyecto</value>
+  <value column="Description" original="Overwrite the account segment Project with the value specified">Sobreescribir el proyecto con el valor especificado</value>
+  <value column="Help" original="If not overwritten, the value of the original account combination is used. If selected, but not specified, the segment is set to null."/>
  </row>
  <row id="11799" trl="Y">
   <value column="Name" original="Attribute Set Instance">Instancia Conjunto de Atributos</value>
@@ -417,73 +417,73 @@ To Manufacturing Order is the date when the last manufacturing order movement is
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56190" trl="N">
-  <value column="Name" original="Period 1 %">Period 1 %</value>
+ <row id="56190" trl="Y">
+  <value column="Name" original="Period 1 %">Periodo 1 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56191" trl="N">
-  <value column="Name" original="Period 2 %">Period 2 %</value>
+ <row id="56191" trl="Y">
+  <value column="Name" original="Period 2 %">Período 2 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56192" trl="N">
-  <value column="Name" original="Period 3 %">Period 3 %</value>
+ <row id="56192" trl="Y">
+  <value column="Name" original="Period 3 %">Período 3 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56193" trl="N">
-  <value column="Name" original="Period 4 %">Period 4 %</value>
+ <row id="56193" trl="Y">
+  <value column="Name" original="Period 4 %">Período 4 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56194" trl="N">
-  <value column="Name" original="Period 5 %">Period 5 %</value>
+ <row id="56194" trl="Y">
+  <value column="Name" original="Period 5 %">Período 5 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56195" trl="N">
-  <value column="Name" original="Period 6 %">Period 6 %</value>
+ <row id="56195" trl="Y">
+  <value column="Name" original="Period 6 %">Período 6 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56196" trl="N">
-  <value column="Name" original="Period 7 %">Period 7 %</value>
+ <row id="56196" trl="Y">
+  <value column="Name" original="Period 7 %">Período 7 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56197" trl="N">
-  <value column="Name" original="Period 8 %">Period 8 %</value>
+ <row id="56197" trl="Y">
+  <value column="Name" original="Period 8 %">Período 8 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56198" trl="N">
-  <value column="Name" original="Period 9 %">Period 9 %</value>
+ <row id="56198" trl="Y">
+  <value column="Name" original="Period 9 %">Período 9 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56199" trl="N">
-  <value column="Name" original="Period 10 %">Period 10 %</value>
+ <row id="56199" trl="Y">
+  <value column="Name" original="Period 10 %">Período 10 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56200" trl="N">
-  <value column="Name" original="Period 11 %">Period 11 %</value>
+ <row id="56200" trl="Y">
+  <value column="Name" original="Period 11 %">Período 11 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56201" trl="N">
-  <value column="Name" original="Period 12 %">Period 12 %</value>
+ <row id="56201" trl="Y">
+  <value column="Name" original="Period 12 %">Período 12 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56202" trl="N">
-  <value column="Name" original="Period 13 %">Period 13 %</value>
+ <row id="56202" trl="Y">
+  <value column="Name" original="Period 13 %">Período 13 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56203" trl="N">
-  <value column="Name" original="Period 14 %">Period 14 %</value>
+ <row id="56203" trl="Y">
+  <value column="Name" original="Period 14 %">Período 14 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -492,8 +492,8 @@ To Manufacturing Order is the date when the last manufacturing order movement is
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56210" trl="N">
-  <value column="Name" original="Name">Name</value>
+ <row id="56210" trl="Y">
+  <value column="Name" original="Name">Nombre</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

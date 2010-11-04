@@ -3195,52 +3195,52 @@ Do you want to continue?</value>
   <value column="MsgText" original="Vendor RMA">Vendor RMA</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="52003" trl="N">
-  <value column="MsgText" original="1000 Rupees">1000 Rupees</value>
+ <row id="52003" trl="Y">
+  <value column="MsgText" original="1000 Rupees">1000 Rupias</value>
   <value column="MsgTip" original=" "> </value>
  </row>
- <row id="52004" trl="N">
-  <value column="MsgText" original="100 dollars">100 dollars</value>
+ <row id="52004" trl="Y">
+  <value column="MsgText" original="100 dollars">100 dólares</value>
   <value column="MsgTip" original=" "> </value>
  </row>
- <row id="52005" trl="N">
-  <value column="MsgText" original="100 Rupees">100 Rupees</value>
+ <row id="52005" trl="Y">
+  <value column="MsgText" original="100 Rupees">100 Rupias</value>
   <value column="MsgTip" original=" "> </value>
  </row>
- <row id="52006" trl="N">
-  <value column="MsgText" original="10 dollars">10 dollars</value>
+ <row id="52006" trl="Y">
+  <value column="MsgText" original="10 dollars">10 dólares</value>
   <value column="MsgTip" original=" "> </value>
  </row>
- <row id="52007" trl="N">
-  <value column="MsgText" original="10 Rupees">10 Rupees</value>
+ <row id="52007" trl="Y">
+  <value column="MsgText" original="10 Rupees">10 Rupias</value>
   <value column="MsgTip" original=" "> </value>
  </row>
- <row id="52008" trl="N">
-  <value column="MsgText" original="1 cent">1 cent</value>
-  <value column="MsgTip" original="1 cent">1 cent</value>
+ <row id="52008" trl="Y">
+  <value column="MsgText" original="1 cent">1 centavo</value>
+  <value column="MsgTip" original="1 cent">1 centavo</value>
  </row>
- <row id="52009" trl="N">
-  <value column="MsgText" original="1 dollar">1 dollar</value>
+ <row id="52009" trl="Y">
+  <value column="MsgText" original="1 dollar">1 dolar</value>
   <value column="MsgTip" original=" "> </value>
  </row>
- <row id="52011" trl="N">
-  <value column="MsgText" original="2000 Rupees">2000 Rupees</value>
+ <row id="52011" trl="Y">
+  <value column="MsgText" original="2000 Rupees">2000 Rupias</value>
   <value column="MsgTip" original=" "> </value>
  </row>
- <row id="52012" trl="N">
-  <value column="MsgText" original="200 Rupees">200 Rupees</value>
+ <row id="52012" trl="Y">
+  <value column="MsgText" original="200 Rupees">200 Rupias</value>
   <value column="MsgTip" original=" "> </value>
  </row>
- <row id="52013" trl="N">
-  <value column="MsgText" original="20 cents">20 cents</value>
-  <value column="MsgTip" original="20 cents">20 cents</value>
+ <row id="52013" trl="Y">
+  <value column="MsgText" original="20 cents">20 centavos</value>
+  <value column="MsgTip" original="20 cents">20 centavos</value>
  </row>
- <row id="52014" trl="N">
-  <value column="MsgText" original="20 dollars">20 dollars</value>
+ <row id="52014" trl="Y">
+  <value column="MsgText" original="20 dollars">20 dolares</value>
   <value column="MsgTip" original=" "> </value>
  </row>
- <row id="52015" trl="N">
-  <value column="MsgText" original="25 Rupees">25 Rupees</value>
+ <row id="52015" trl="Y">
+  <value column="MsgText" original="25 Rupees">25 Rupias</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="52016" trl="N">
@@ -5469,8 +5469,8 @@ Please contact administrator.</value>
   <value column="MsgText" original="The page or component you request is no longer available. This is normally caused by timeout or rebooting the server.">The page or component you request is no longer available. This is normally caused by timeout or rebooting the server.</value>
   <value column="MsgTip" original=""/>
  </row>
- <row id="520010" trl="N">
-  <value column="MsgText" original="1 Rupee">1 Rupee</value>
+ <row id="520010" trl="Y">
+  <value column="MsgText" original="1 Rupee">1 Rupia</value>
   <value column="MsgTip" original=" "> </value>
  </row>
  <row id="523847" trl="N">

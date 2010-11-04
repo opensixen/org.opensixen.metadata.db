@@ -153,28 +153,28 @@
   <value column="Help" original=""/>
  </row>
  <row id="35" trl="Y">
-  <value column="Name" original="Product Attribute">PAttribute</value>
-  <value column="Description" original="Product Attribute">Product Attribute</value>
+  <value column="Name" original="Product Attribute">Atributos</value>
+  <value column="Description" original="Product Attribute">Atributos Producto</value>
   <value column="Help" original=""/>
  </row>
  <row id="36" trl="Y">
-  <value column="Name" original="Text Long">TextLong</value>
-  <value column="Description" original="Text (Long) - Text &gt; 2000 characters"><![CDATA[Text (Long) - Text > 2000 characters]]></value>
+  <value column="Name" original="Text Long">Texto Largo</value>
+  <value column="Description" original="Text (Long) - Text &gt; 2000 characters"><![CDATA[Texto Largo - Texto > 2000 caracteres]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="37" trl="Y">
-  <value column="Name" original="Costs+Prices">Costs+Prices</value>
-  <value column="Description" original="Costs + Prices (minimum currency precision but if exists more)">Costs + Prices (minimum currency precision, but if exists more)</value>
+  <value column="Name" original="Costs+Prices">Costes+Precios</value>
+  <value column="Description" original="Costs + Prices (minimum currency precision but if exists more)">Costes+Precios (minima precisión de moneda)</value>
   <value column="Help" original=""/>
  </row>
- <row id="38" trl="N">
-  <value column="Name" original="FilePath">FilePath</value>
-  <value column="Description" original="Local File Path">Local File Path</value>
+ <row id="38" trl="Y">
+  <value column="Name" original="FilePath">Ruta Archivo</value>
+  <value column="Description" original="Local File Path">Ruta Archivo Local</value>
   <value column="Help" original=""/>
  </row>
- <row id="39" trl="N">
-  <value column="Name" original="FileName">FileName</value>
-  <value column="Description" original="Local File">Local File</value>
+ <row id="39" trl="Y">
+  <value column="Name" original="FileName">Nombre Archivo</value>
+  <value column="Description" original="Local File">Archivo Local</value>
   <value column="Help" original=""/>
  </row>
  <row id="40" trl="N">
@@ -182,8 +182,8 @@
   <value column="Description" original="URL">URL</value>
   <value column="Help" original=""/>
  </row>
- <row id="42" trl="N">
-  <value column="Name" original="Printer Name">Printer Name</value>
+ <row id="42" trl="Y">
+  <value column="Name" original="Printer Name">Nombre Impresora</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

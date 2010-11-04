@@ -1490,30 +1490,30 @@ MRP - 110	 No exists Dem</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53020" trl="N">
-  <value column="Name" original="Tax Group">Tax Group</value>
-  <value column="Description" original="Tax Groups let you group the business partner with a reference tax.">Tax Groups let you group the business partner with a reference tax.</value>
+ <row id="53020" trl="Y">
+  <value column="Name" original="Tax Group">Grupo Impuestos</value>
+  <value column="Description" original="Tax Groups let you group the business partner with a reference tax.">Los grupos de impuestos permiten agrupar las entidades comerciales con un impuesto de referencia.</value>
   <value column="Help" original=""/>
  </row>
- <row id="53021" trl="N">
-  <value column="Name" original="Tax Definition">Tax Definition</value>
-  <value column="Description" original="Lets you define different tax combinations.">Lets you define different tax combinations.</value>
-  <value column="Help" original="You can use the tax dfinition information to create the logic necessary to get the tax rate to your document">You can use the tax dfinition information to create the logic necessary to get the tax rate to your document</value>
+ <row id="53021" trl="Y">
+  <value column="Name" original="Tax Definition">Definición Impuesto</value>
+  <value column="Description" original="Lets you define different tax combinations.">Permite definir diferentes combinaciones de impuestos.</value>
+  <value column="Help" original="You can use the tax dfinition information to create the logic necessary to get the tax rate to your document">Permite definir diferentes combinaciones de impuestos.</value>
  </row>
- <row id="53022" trl="N">
-  <value column="Name" original="Tax Rate Parent">Tax Rate Parent</value>
-  <value column="Description" original="Maintain Taxes and their Rates">Maintain Taxes and their Rates</value>
+ <row id="53022" trl="Y">
+  <value column="Name" original="Tax Rate Parent">Tasa Impuesto Padre</value>
+  <value column="Description" original="Maintain Taxes and their Rates">Administra las Tasas de los impuestos</value>
   <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.</value>
  </row>
- <row id="53023" trl="N">
-  <value column="Name" original="Tax Type">Tax Type</value>
-  <value column="Description" original="Tax Types let you group taxes together.">Tax Types let you group taxes together.</value>
+ <row id="53023" trl="Y">
+  <value column="Name" original="Tax Type">Tipo Impuesto</value>
+  <value column="Description" original="Tax Types let you group taxes together.">Tipos de Impuesto permite agrupar impuestos</value>
   <value column="Help" original=""/>
  </row>
- <row id="53024" trl="N">
-  <value column="Name" original="Tax Base">Tax Base</value>
-  <value column="Description" original="Defines tax base for a tax">Defines tax base for a tax</value>
-  <value column="Help" original="The Tax Base can be based on price , cost and quantity">The Tax Base can be based on price , cost and quantity</value>
+ <row id="53024" trl="Y">
+  <value column="Name" original="Tax Base">Base Impuesto</value>
+  <value column="Description" original="Defines tax base for a tax">Define el impuesto base para otro impuesto</value>
+  <value column="Help" original="The Tax Base can be based on price , cost and quantity">Define el impuesto base para otro impuesto</value>
  </row>
  <row id="53025" trl="Y">
   <value column="Name" original="Export Format">Formato de Exportación</value>
@@ -1595,58 +1595,58 @@ MRP - 110	 No exists Dem</value>
   <value column="Description" original="History of Payroll Movement">Histórico de movimientos de nómina</value>
   <value column="Help" original="The Payroll Movement Window is use to show the history the any calculated payroll">La ventana movimientos de nómina se utiliza para mostrar la historia de cualquier nómina calculada</value>
  </row>
- <row id="53044" trl="N">
-  <value column="Name" original="Asset Revaluation Processing">Asset Revaluation Processing</value>
-  <value column="Description" original="Process Revaluation of Assets">Process Revaluation of Assets</value>
-  <value column="Help" original="This window allows you to select and process what assets are revalued">This window allows you to select and process what assets are revalued</value>
+ <row id="53044" trl="Y">
+  <value column="Name" original="Asset Revaluation Processing">Proceso Revalorización Activos</value>
+  <value column="Description" original="Process Revaluation of Assets">Proceso Revalorización Activos</value>
+  <value column="Help" original="This window allows you to select and process what assets are revalued">Esta ventana permite seleccionar y procesar los activos que se quieran revalorizar.</value>
  </row>
- <row id="53045" trl="N">
-  <value column="Name" original="Asset Revaluation Index">Asset Revaluation Index</value>
-  <value column="Description" original="Set the Revaluate Assets Index or Factors">Set the Revaluate Assets Index or Factors</value>
-  <value column="Help" original="The Asset Revaluation Index window allow you to setup the values of indexs or factors to be used in revaluation of assets">The Asset Revaluation Index window allow you to setup the values of indexs or factors to be used in revaluation of assets</value>
+ <row id="53045" trl="Y">
+  <value column="Name" original="Asset Revaluation Index">Índice Revalorización Activos</value>
+  <value column="Description" original="Set the Revaluate Assets Index or Factors">Configura los Índices Revalorización Activos</value>
+  <value column="Help" original="The Asset Revaluation Index window allow you to setup the values of indexs or factors to be used in revaluation of assets">La revalorización de acivos permite crear los valores de los índices o factores usados en la revalorización de los activos</value>
  </row>
- <row id="53046" trl="N">
-  <value column="Name" original="Transfer Asset Entry">Transfer Asset Entry</value>
-  <value column="Description" original="Create Transfer Asset Entry">Create Transfer Asset Entry</value>
-  <value column="Help" original="The Transfer Asset Entry window allows you to create and post asset transfers to the GL">The Transfer Asset Entry window allows you to create and post asset transfers to the GL</value>
+ <row id="53046" trl="Y">
+  <value column="Name" original="Transfer Asset Entry">Entrada Transferencia Activos</value>
+  <value column="Description" original="Create Transfer Asset Entry">Crear Entrada de Transferencia de Activos</value>
+  <value column="Help" original="The Transfer Asset Entry window allows you to create and post asset transfers to the GL">Esta ventana permite crear y aplicar transferencias de activos a la contabilidad</value>
  </row>
- <row id="53047" trl="N">
-  <value column="Name" original="Disposed Asset Entry">Disposed Asset Entry</value>
-  <value column="Description" original="Create Disposed Asset Entry">Create Disposed Asset Entry</value>
-  <value column="Help" original="The Disposed Asset Entry window allows you to create and post assets that have been disposed to the GL">The Disposed Asset Entry window allows you to create and post assets that have been disposed to the GL</value>
+ <row id="53047" trl="Y">
+  <value column="Name" original="Disposed Asset Entry">Entrada Activos Desechados</value>
+  <value column="Description" original="Create Disposed Asset Entry">Crear Entradas Activos Desechados</value>
+  <value column="Help" original="The Disposed Asset Entry window allows you to create and post assets that have been disposed to the GL">Esta ventana permite crear y aplicar activos que ya han sido desechados a la contabilidad</value>
  </row>
- <row id="53048" trl="N">
-  <value column="Name" original="Asset Split">Asset Split</value>
-  <value column="Description" original="Split Assets Process">Split Assets Process</value>
-  <value column="Help" original="The Asset Split window allows you to process asset splits">The Asset Split window allows you to process asset splits</value>
+ <row id="53048" trl="Y">
+  <value column="Name" original="Asset Split">Ruptura Activos</value>
+  <value column="Description" original="Split Assets Process">Proceso Ruptura Activos</value>
+  <value column="Help" original="The Asset Split window allows you to process asset splits">Esta ventana permite la Ruptura Activos</value>
  </row>
- <row id="53049" trl="N">
-  <value column="Name" original="Asset Disposal">Asset Disposal</value>
-  <value column="Description" original="Dispose of Assets">Dispose of Assets</value>
-  <value column="Help" original="The Asset Disposal window allows you to create the necessary GL entries to dispose of an asset">The Asset Disposal window allows you to create the necessary GL entries to dispose of an asset</value>
+ <row id="53049" trl="Y">
+  <value column="Name" original="Asset Disposal">Desechar Activos</value>
+  <value column="Description" original="Dispose of Assets">Desechar Activos</value>
+  <value column="Help" original="The Asset Disposal window allows you to create the necessary GL entries to dispose of an asset">Esta ventana permite crear las entradas contables necesarias para desechar un activo.</value>
  </row>
- <row id="53050" trl="N">
-  <value column="Name" original="Asset Transfers">Asset Transfers</value>
-  <value column="Description" original="Process transfers of assets">Process transfers of assets</value>
-  <value column="Help" original="The Asset Transfer window allows you to transfer assets">The Asset Transfer window allows you to transfer assets</value>
+ <row id="53050" trl="Y">
+  <value column="Name" original="Asset Transfers">Transferencias Activos</value>
+  <value column="Description" original="Process transfers of assets">Procesos de transferencias de Activos</value>
+  <value column="Help" original="The Asset Transfer window allows you to transfer assets">Procesos de transferencias de Activos permite hacer transferencias de activos</value>
  </row>
- <row id="53051" trl="N">
-  <value column="Name" original="Split Asset Entry">Split Asset Entry</value>
-  <value column="Description" original="Create Split Asset Entries">Create Split Asset Entries</value>
-  <value column="Help" original="The Split Asset Entry window allows you to create and post assets that have been split to the GL">The Split Asset Entry window allows you to create and post assets that have been split to the GL</value>
+ <row id="53051" trl="Y">
+  <value column="Name" original="Split Asset Entry">Entrada Rupturas</value>
+  <value column="Description" original="Create Split Asset Entries">Crear Entradas de Rupturas</value>
+  <value column="Help" original="The Split Asset Entry window allows you to create and post assets that have been split to the GL">La ventana de Entrada de Rupturas permite crear activos </value>
  </row>
- <row id="53052" trl="N">
-  <value column="Name" original="Build Depreciation Workfile">Build Depreciation Workfile</value>
-  <value column="Description" original="Build Depreciation Expense File">Build Depreciation Expense File</value>
-  <value column="Help" original="The Deprecaiton Build Workfile window allow you to build current depreciation expense for various posting types including actual budget and tax as defined by the user">The Deprecaiton Build Workfile window allow you to build current depreciation expense for various posting types including actual budget and tax as defined by the user</value>
+ <row id="53052" trl="Y">
+  <value column="Name" original="Build Depreciation Workfile">Construir Archivo Amortizaciones</value>
+  <value column="Description" original="Build Depreciation Expense File">Construir Archivo Amortizaciones</value>
+  <value column="Help" original="The Deprecaiton Build Workfile window allow you to build current depreciation expense for various posting types including actual budget and tax as defined by the user">La ventana de Construir Archivo Amortizaciones permite construir amortizaciones de gastos para varios tipos de contabilización.</value>
  </row>
- <row id="53053" trl="N">
-  <value column="Name" original="Post Depreciation Entry">Post Depreciation Entry</value>
-  <value column="Description" original="Create Depreciation Entry">Create Depreciation Entry</value>
-  <value column="Help" original="The Depreciation Entry window allows you to create and post the depreciation expense entry to the GL">The Depreciation Entry window allows you to create and post the depreciation expense entry to the GL</value>
+ <row id="53053" trl="Y">
+  <value column="Name" original="Post Depreciation Entry">Entradas Post-Amortización</value>
+  <value column="Description" original="Create Depreciation Entry">Crear Entrada de Amortización</value>
+  <value column="Help" original="The Depreciation Entry window allows you to create and post the depreciation expense entry to the GL">La ventana de Entradas Post-Amortización permite crear y postear amortizaciones a la contabilidad</value>
  </row>
- <row id="53054" trl="N">
-  <value column="Name" original="Build Depreciation Forecast">Build Depreciation Forecast</value>
+ <row id="53054" trl="Y">
+  <value column="Name" original="Build Depreciation Forecast">Previsión Amortizaciones</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1665,28 +1665,28 @@ MRP - 110	 No exists Dem</value>
   <value column="Description" original="Period Spread Type">Period Spread Type</value>
   <value column="Help" original="The Period Spread Type window allows you to setup and review depreciation spread by period">The Period Spread Type window allows you to setup and review depreciation spread by period</value>
  </row>
- <row id="53058" trl="N">
-  <value column="Name" original="Depreciation Methods">Depreciation Methods</value>
-  <value column="Description" original="Depreciation Methods">Depreciation Methods</value>
-  <value column="Help" original="The Depreciation method windows allows the user to review the depreciation calculations available in Adempiere">The Depreciation method windows allows the user to review the depreciation calculations available in Adempiere</value>
+ <row id="53058" trl="Y">
+  <value column="Name" original="Depreciation Methods">Métodos de Amortización</value>
+  <value column="Description" original="Depreciation Methods">Métodos de Amortización</value>
+  <value column="Help" original="The Depreciation method windows allows the user to review the depreciation calculations available in Adempiere">La ventana de Métodos de Amortización permite al usuario revisar los métodos de cálculo de amortización disponibles en OpenSixen.</value>
  </row>
- <row id="53059" trl="N">
-  <value column="Name" original="Depreciation Tables">Depreciation Tables</value>
-  <value column="Description" original="Allows users to create multiple depreciation schedules">Allows users to create multiple depreciation schedules</value>
+ <row id="53059" trl="Y">
+  <value column="Name" original="Depreciation Tables">Tablas Amortizaciones</value>
+  <value column="Description" original="Allows users to create multiple depreciation schedules">Permite a los usuarios a crear múltiples esquemas de amortización.</value>
   <value column="Help" original=""/>
  </row>
- <row id="53060" trl="N">
-  <value column="Name" original="Depreciation First Year Conventions ">Depreciation First Year Conventions </value>
-  <value column="Description" original="Setup for depreciation Setups">Setup for depreciation Setups</value>
-  <value column="Help" original="Allows user to define what depreciation conventions are available in Adempiere">Allows user to define what depreciation conventions are available in Adempiere</value>
+ <row id="53060" trl="Y">
+  <value column="Name" original="Depreciation First Year Conventions ">Configuración Amortización Primer Año</value>
+  <value column="Description" original="Setup for depreciation Setups">Configuración Amortización Primer Año</value>
+  <value column="Help" original="Allows user to define what depreciation conventions are available in Adempiere">Permite al usuario definir que amortización se realizará durante el primer año.</value>
  </row>
- <row id="53061" trl="N">
-  <value column="Name" original="Depreciation Calculation Method">Depreciation Calculation Method</value>
-  <value column="Description" original="Define Calculation Methods used in depreciation expense calculation">Define Calculation Methods used in depreciation expense calculation</value>
-  <value column="Help" original="The Depreciation Calcualtion Method window allows the user to define how adjustments to the fixed asset depreciation expense are handled">The Depreciation Calcualtion Method window allows the user to define how adjustments to the fixed asset depreciation expense are handled</value>
+ <row id="53061" trl="Y">
+  <value column="Name" original="Depreciation Calculation Method">Métodos de Cálculo de Amortizaciones</value>
+  <value column="Description" original="Define Calculation Methods used in depreciation expense calculation">Define los Métodos de Cálculo de Amortizaciones</value>
+  <value column="Help" original="The Depreciation Calcualtion Method window allows the user to define how adjustments to the fixed asset depreciation expense are handled">La ventana de Métodos de Cálculo de Amortizaciones permite al susuario definir los ajustes del cálculo de las amortizaciones.</value>
  </row>
- <row id="53062" trl="N">
-  <value column="Name" original="Charge Type">Charge Type</value>
+ <row id="53062" trl="Y">
+  <value column="Name" original="Charge Type">Tipo Cargo</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>

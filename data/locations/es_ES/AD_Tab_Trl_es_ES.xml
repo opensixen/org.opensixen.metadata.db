@@ -3618,16 +3618,16 @@ Segmentos deseados de cuenta, Organización, Cuentas, Productos pueden tener alg
   <value column="Description" original="Maintain Budget Controls">Mantener Control de Presupuesto</value>
   <value column="Help" original="Budget Control allows you to restrict the use of expenditures, commitments (Purchase Orders) and reservations (Requisitions). If defined, you mey not be able to approve Requisitions, Purchse Orders, or AP Invoices.">Control de Presupuesto le èr,ite restringir el empleo de gastos, Compromisos (Ordenes de Compra) y reservados (Requisiciones). Si definió, no podrá aprobar Requisiciones, Ordenes de Comprao Facturas CxP.</value>
  </row>
- <row id="770" trl="N">
-  <value column="Name" original="Fund">Fund</value>
+ <row id="770" trl="Y">
+  <value column="Name" original="Fund">Fondo</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Fund Control">Maintain Fund Control</value>
+  <value column="Description" original="Maintain Fund Control">Administración Control Fondos</value>
   <value column="Help" original="General Ledger Funds Control allows you to restrict the use of funds.  This is independent from budget control.">General Ledger Funds Control allows you to restrict the use of funds.  This is independent from budget control.</value>
  </row>
- <row id="771" trl="N">
-  <value column="Name" original="Restriction">Restriction</value>
+ <row id="771" trl="Y">
+  <value column="Name" original="Restriction">Restricciones</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Restriction of Funds">Restriction of Funds</value>
+  <value column="Description" original="Restriction of Funds">Restricciones de Fondos</value>
   <value column="Help" original="If defined, you can use the fund only for the accounts selected. You can select summary values.">If defined, you can use the fund only for the accounts selected. You can select summary values.</value>
  </row>
  <row id="772" trl="Y">
@@ -3746,9 +3746,9 @@ La medida debe soportar la información, sino es ignorada.</value>
   <value column="Help" original=""/>
  </row>
  <row id="793" trl="Y">
-  <value column="Name" original="Issue Project">Surtimiento al Proyecto</value>
+  <value column="Name" original="Issue Project">Incidencia al Proyecto</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Automatic Issue Reporting">Reporte Automático de Surtimiento</value>
+  <value column="Description" original="Automatic Issue Reporting">Reporte Automático de Incidencia</value>
   <value column="Help" original=""/>
  </row>
  <row id="794" trl="Y">
@@ -4534,62 +4534,62 @@ Si el perfil excluye(por defecto), el asignado puede ver todo salvo lo marcado, 
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53075" trl="N">
-  <value column="Name" original="Tax Group">Tax Group</value>
+ <row id="53075" trl="Y">
+  <value column="Name" original="Tax Group">Grupos Impuesto</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Tax Groups let you group the business partner with a reference tax.">Tax Groups let you group the business partner with a reference tax.</value>
+  <value column="Description" original="Tax Groups let you group the business partner with a reference tax.">Los grupos de impuestos permiten agrupar las entidades comerciales con un impuesto de referencia.</value>
   <value column="Help" original=""/>
  </row>
- <row id="53076" trl="N">
-  <value column="Name" original="Tax Definition">Tax Definition</value>
+ <row id="53076" trl="Y">
+  <value column="Name" original="Tax Definition">Definición Impuesto</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Lets you define different tax combinations.">Lets you define different tax combinations.</value>
-  <value column="Help" original="You can use the tax definition information to create the logic necessary to get the tax rate to your document.">You can use the tax definition information to create the logic necessary to get the tax rate to your document.</value>
+  <value column="Description" original="Lets you define different tax combinations.">Permite definir diferentes combinaciones de impuestos.</value>
+  <value column="Help" original="You can use the tax definition information to create the logic necessary to get the tax rate to your document.">Permite definir diferentes combinaciones de impuestos.</value>
  </row>
- <row id="53077" trl="N">
-  <value column="Name" original="Accounting">Accounting</value>
+ <row id="53077" trl="Y">
+  <value column="Name" original="Accounting">Contabilidad</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Accounting">Accounting</value>
+  <value column="Description" original="Accounting">Contabilidad</value>
   <value column="Help" original="The Accounting Tab defines the accounting parameters to be used for transactions referencing this Tax Rate.">The Accounting Tab defines the accounting parameters to be used for transactions referencing this Tax Rate.</value>
  </row>
- <row id="53078" trl="N">
-  <value column="Name" original="Tax Children">Tax Children</value>
+ <row id="53078" trl="Y">
+  <value column="Name" original="Tax Children">Impuestos Hijos</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Tax definition">Tax definition</value>
+  <value column="Description" original="Tax definition">Definición Impuestos</value>
   <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax."><![CDATA[The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.<br>
 If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.<br>
 Valid From/To is determined by the parent tax.]]></value>
  </row>
- <row id="53079" trl="N">
-  <value column="Name" original="Tax Parent">Tax Parent</value>
+ <row id="53079" trl="Y">
+  <value column="Name" original="Tax Parent">Impuesto Padre</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Tax definition">Tax definition</value>
+  <value column="Description" original="Tax definition">Definición Impuesto</value>
   <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax."><![CDATA[The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.<br>
 If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.<br>
 Valid From/To is determined by the parent tax.]]></value>
  </row>
- <row id="53080" trl="N">
-  <value column="Name" original="Tax ZIP">Tax ZIP</value>
+ <row id="53080" trl="Y">
+  <value column="Name" original="Tax ZIP">Impuesto ZIP</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Tax Postal/ZIP">Tax Postal/ZIP</value>
   <value column="Help" original="For local tax you may have to define a list of (ranges of) postal codes or ZIPs">For local tax you may have to define a list of (ranges of) postal codes or ZIPs</value>
  </row>
- <row id="53081" trl="N">
-  <value column="Name" original="Translation">Translation</value>
+ <row id="53081" trl="Y">
+  <value column="Name" original="Translation">Traducción</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53082" trl="N">
-  <value column="Name" original="Tax Type">Tax Type</value>
+ <row id="53082" trl="Y">
+  <value column="Name" original="Tax Type">Tipo de Impuesto</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Tax Types let you group taxes together.">Tax Types let you group taxes together.</value>
+  <value column="Description" original="Tax Types let you group taxes together.">Tipos de Impuesto permite agrupar impuestos</value>
   <value column="Help" original=""/>
  </row>
- <row id="53083" trl="N">
-  <value column="Name" original="Tax Base">Tax Base</value>
+ <row id="53083" trl="Y">
+  <value column="Name" original="Tax Base">Impuesto Base</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
+  <value column="Description" original="">Define el impuesto base para otro impuesto</value>
   <value column="Help" original=""/>
  </row>
  <row id="53084" trl="Y">
@@ -4814,242 +4814,242 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Description" original="Log of Access to data or resources">Log de los Accesos a los datos o recursos</value>
   <value column="Help" original="Logging needs to be explicitly enabled / written.">El log debe estar específicamente activado / permisos de escritura.</value>
  </row>
- <row id="53138" trl="N">
-  <value column="Name" original="Revaluation Entry">Revaluation Entry</value>
+ <row id="53138" trl="Y">
+  <value column="Name" original="Revaluation Entry">Entrada Revalorización</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53139" trl="N">
-  <value column="Name" original="Maintain Index">Maintain Index</value>
+ <row id="53139" trl="Y">
+  <value column="Name" original="Maintain Index">Adminitrar Índices</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Index">Maintain Index</value>
+  <value column="Description" original="Maintain Index">Adminitrar Índices</value>
   <value column="Help" original=""/>
  </row>
  <row id="53140" trl="N">
-  <value column="Name" original="Create Asset Transfer Entry">Create Asset Transfer Entry</value>
+  <value column="Name" original="Create Asset Transfer Entry">Crear Entrada Transferencia Activos</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original="">Esta ventana permite crear y aplicar transferencias de activos a la contabilidad</value>
+ </row>
+ <row id="53141" trl="Y">
+  <value column="Name" original="Create Disposal Entry">Crear Entrada Desechado</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53141" trl="N">
-  <value column="Name" original="Create Disposal Entry">Create Disposal Entry</value>
+ <row id="53142" trl="Y">
+  <value column="Name" original="Step4 Process Asset Split">Paso 4 Proceso Ruptura Activo</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Split Assets">Ruptura Activos</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53143" trl="Y">
+  <value column="Name" original="Step1 Select an Asset">Paso 1 Selecciona un Activo</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="List of Assets">Lista de Activos</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53144" trl="Y">
+  <value column="Name" original="Step2 Select the Balance">Paso 2 Selecciona el Balance</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53142" trl="N">
-  <value column="Name" original="Step4 Process Asset Split">Step4 Process Asset Split</value>
+ <row id="53145" trl="Y">
+  <value column="Name" original="Step3 Select Accounting">Paso 3 Seleccionar Cuentas</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Split Assets">Split Assets</value>
+  <value column="Description" original="Select the fixed asset setup that you wish to split">Seleccionar las cuentas</value>
   <value column="Help" original=""/>
  </row>
- <row id="53143" trl="N">
-  <value column="Name" original="Step1 Select an Asset">Step1 Select an Asset</value>
+ <row id="53146" trl="Y">
+  <value column="Name" original="Step1 Select an Asset">Paso1 Selecciona Activo</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="List of Assets">List of Assets</value>
+  <value column="Description" original="Select Asset for Disposal">Paso1 Selecciona Activo</value>
   <value column="Help" original=""/>
  </row>
- <row id="53144" trl="N">
-  <value column="Name" original="Step2 Select the Balance">Step2 Select the Balance</value>
+ <row id="53147" trl="Y">
+  <value column="Name" original="Step2 Asset Disposal">Paso2 Desechar Activo</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Process the Disposal">Paso2 Desechar Activo</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53148" trl="Y">
+  <value column="Name" original="Step2 Select Accounting Setup">Paso 2 Seleccionar Configuración Contabilidad</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Enter accounting setup information">Introduce una Configuración de Contabilidad</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53149" trl="Y">
+  <value column="Name" original="Step3 Process Transfers">Paso 3 Proceso Transferencias</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Process asset transfers">Proceso Transferencias Activos</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53150" trl="Y">
+  <value column="Name" original="Step1 Select Asset">Paso 1 Selecciona un Activo</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Select the asset to be transfered">Selecciona un Activo para ser transferido</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53151" trl="Y">
+  <value column="Name" original="Create Split Asset Entry">Crear Entradas de Rupturas</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53145" trl="N">
-  <value column="Name" original="Step3 Select Accounting">Step3 Select Accounting</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Select the fixed asset setup that you wish to split">Select the fixed asset setup that you wish to split</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53146" trl="N">
-  <value column="Name" original="Step1 Select an Asset">Step1 Select an Asset</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Select Asset for Disposal">Select Asset for Disposal</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53147" trl="N">
-  <value column="Name" original="Step2 Asset Disposal">Step2 Asset Disposal</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Process the Disposal">Process the Disposal</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53148" trl="N">
-  <value column="Name" original="Step2 Select Accounting Setup">Step2 Select Accounting Setup</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Enter accounting setup information">Enter accounting setup information</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53149" trl="N">
-  <value column="Name" original="Step3 Process Transfers">Step3 Process Transfers</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Process asset transfers">Process asset transfers</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53150" trl="N">
-  <value column="Name" original="Step1 Select Asset">Step1 Select Asset</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Select the asset to be transfered">Select the asset to be transfered</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53151" trl="N">
-  <value column="Name" original="Create Split Asset Entry">Create Split Asset Entry</value>
+ <row id="53152" trl="Y">
+  <value column="Name" original="Build Workfile">Construir Archivo</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53152" trl="N">
-  <value column="Name" original="Build Workfile">Build Workfile</value>
+ <row id="53153" trl="Y">
+  <value column="Name" original="Create Depreciation Entry">Crear Entrada de Amortización</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53153" trl="N">
-  <value column="Name" original="Create Depreciation Entry">Create Depreciation Entry</value>
+ <row id="53154" trl="Y">
+  <value column="Name" original="Depreciation Forecast">Previsión Amortizaciones</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53154" trl="N">
-  <value column="Name" original="Depreciation Forecast">Depreciation Forecast</value>
+ <row id="53155" trl="Y">
+  <value column="Name" original="Tax Information">Información Impuesto</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Tax information for asset">Información de Impuesto para el activo</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53156" trl="Y">
+  <value column="Name" original="Finance Information">Información Finanzas</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Finace Information for the Asset">Información Finanzas</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53157" trl="Y">
+  <value column="Name" original="Accounting Setup">Configuración Cuentas</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Enter accounting setup information">Introduce una Configuración de Cuentas</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53158" trl="Y">
+  <value column="Name" original="Asset History">Historial Activo</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Detail asset transaction history">Detalles de las transacciones del Activo</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53159" trl="Y">
+  <value column="Name" original="License Information">Información Licencia</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="License Information for Asset">Información Licencia para el Activo</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53160" trl="Y">
+  <value column="Name" original="Insurance Information">Información Seguro</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Insurance Information for asset">Información Seguro para el Activo</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53161" trl="Y">
+  <value column="Name" original="Other Information">Otra Información</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Other information associated with asset">Otra Información relacionada con el Activo</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53162" trl="Y">
+  <value column="Name" original="Asset Balances">Activos Balanceados</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Asset Balance Report and Adjustments">Informe y Ajustes de Activos Balanceados</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53163" trl="Y">
+  <value column="Name" original="Cost Details">Detalles de Costes</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Cost Detail">Detalles de Costes</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53164" trl="Y">
+  <value column="Name" original="Asset Usage">Usos de Activo</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Record Asset Usage">Registro de usos de activos</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53165" trl="Y">
+  <value column="Name" original="Group Account">Grupo Contabilidad</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Setup for Group Accounts">Configuración para grupo de contabilidad</value>
+  <value column="Help" original="Setup of Group Accounts allows the user to set the default values for a particular asset group.  If  &quot;Use as defaults&quot; on this tab is checked then the predefined values on this tab will be populated in the appropriate fields for an individual asset.">Configuración de un grupo de cuentas permite al usuario dar los valores predefinidos para grupos particulares de activos. Si 'Usar predefinidos' en esta pestaña está activo entonces  los valores predefinidos en esta pestaña serán publicados en los campos apropiados para cada activo.</value>
+ </row>
+ <row id="53166" trl="Y">
+  <value column="Name" original="Create Inbound AP Assets">Crear Activos Entrantes</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Create Inbound AP Assets">Crear Activos Entrantes</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53167" trl="Y">
+  <value column="Name" original="Import Assets Setup">Importar Configuración Activos</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Review Fixed before Import">Importar Configuración Activos</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53168" trl="Y">
+  <value column="Name" original="Import Accounting Setup">Importar configuración de cuentas</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Review Fixed before Import">Importar configuración de cuentas</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53169" trl="Y">
+  <value column="Name" original="Import Asset Balances">Importar Balances Activos</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Review Fixed before Import">Importar Balances Activos</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53170" trl="Y">
+  <value column="Name" original="Period Spread Type">Tipo Extensión Periodo </value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53155" trl="N">
-  <value column="Name" original="Tax Information">Tax Information</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Tax information for asset">Tax information for asset</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53156" trl="N">
-  <value column="Name" original="Finance Information">Finance Information</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Finace Information for the Asset">Finace Information for the Asset</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53157" trl="N">
-  <value column="Name" original="Accounting Setup">Accounting Setup</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Enter accounting setup information">Enter accounting setup information</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53158" trl="N">
-  <value column="Name" original="Asset History">Asset History</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Detail asset transaction history">Detail asset transaction history</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53159" trl="N">
-  <value column="Name" original="License Information">License Information</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="License Information for Asset">License Information for Asset</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53160" trl="N">
-  <value column="Name" original="Insurance Information">Insurance Information</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Insurance Information for asset">Insurance Information for asset</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53161" trl="N">
-  <value column="Name" original="Other Information">Other Information</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Other information associated with asset">Other information associated with asset</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53162" trl="N">
-  <value column="Name" original="Asset Balances">Asset Balances</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Asset Balance Report and Adjustments">Asset Balance Report and Adjustments</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53163" trl="N">
-  <value column="Name" original="Cost Details">Cost Details</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Cost Detail">Cost Detail</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53164" trl="N">
-  <value column="Name" original="Asset Usage">Asset Usage</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Record Asset Usage">Record Asset Usage</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53165" trl="N">
-  <value column="Name" original="Group Account">Group Account</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Setup for Group Accounts">Setup for Group Accounts</value>
-  <value column="Help" original="Setup of Group Accounts allows the user to set the default values for a particular asset group.  If  &quot;Use as defaults&quot; on this tab is checked then the predefined values on this tab will be populated in the appropriate fields for an individual asset.">Setup of Group Accounts allows the user to set the default values for a particular asset group.  If  "Use as defaults" on this tab is checked then the predefined values on this tab will be populated in the appropriate fields for an individual asset.</value>
- </row>
- <row id="53166" trl="N">
-  <value column="Name" original="Create Inbound AP Assets">Create Inbound AP Assets</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Create Inbound AP Assets">Create Inbound AP Assets</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53167" trl="N">
-  <value column="Name" original="Import Assets Setup">Import Assets Setup</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Review Fixed before Import">Review Fixed before Import</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53168" trl="N">
-  <value column="Name" original="Import Accounting Setup">Import Accounting Setup</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Review Fixed before Import">Review Fixed before Import</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53169" trl="N">
-  <value column="Name" original="Import Asset Balances">Import Asset Balances</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Review Fixed before Import">Review Fixed before Import</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53170" trl="N">
-  <value column="Name" original="Period Spread Type">Period Spread Type</value>
+ <row id="53171" trl="Y">
+  <value column="Name" original="Depreciation Functions">Funciones de Amortización</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53171" trl="N">
-  <value column="Name" original="Depreciation Functions">Depreciation Functions</value>
+ <row id="53172" trl="Y">
+  <value column="Name" original="Depreciation Schedules">Esquema de Amortización</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53172" trl="N">
-  <value column="Name" original="Depreciation Schedules">Depreciation Schedules</value>
+ <row id="53173" trl="Y">
+  <value column="Name" original="Depreciation Schedule Details">Detalles Esquema Amortización</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53173" trl="N">
-  <value column="Name" original="Depreciation Schedule Details">Depreciation Schedule Details</value>
+ <row id="53174" trl="Y">
+  <value column="Name" original="Setup Conventions">Configuración</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Setup for depreciation conventions">Configuración para amortizaciones</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53175" trl="Y">
+  <value column="Name" original="Define Depreciation Method">Métodos de Amortización</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Define Depreciation Method">Métodos de Amortización</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53176" trl="Y">
+  <value column="Name" original="Charge Type">Tipo Cargos</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53174" trl="N">
-  <value column="Name" original="Setup Conventions">Setup Conventions</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Setup for depreciation conventions">Setup for depreciation conventions</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53175" trl="N">
-  <value column="Name" original="Define Depreciation Method">Define Depreciation Method</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Depreciation Method">Define Depreciation Method</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53176" trl="N">
-  <value column="Name" original="Charge Type">Charge Type</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="53177" trl="N">
-  <value column="Name" original="Charge Type by Doc Type">Charge Type by Doc Type</value>
+ <row id="53177" trl="Y">
+  <value column="Name" original="Charge Type by Doc Type">Tipo Cargo por Tipo Doc</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
